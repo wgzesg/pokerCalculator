@@ -1,6 +1,5 @@
 package poker.src;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class GameTable {
@@ -31,7 +30,6 @@ public class GameTable {
         for(int i = 0; i < rounds; i++) {
             monteOnce();
         }
-        System.out.println("win rate is " + 1.0 * myWin / rounds);
         return 1.0 * myWin / rounds;
     }
 

@@ -1,7 +1,7 @@
 package poker.src;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Random;
+
 public class Deck {
     ArrayList<Card> cards = new ArrayList<>();
     int index;

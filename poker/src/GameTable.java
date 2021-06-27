@@ -22,7 +22,6 @@ public class GameTable {
         cardDeck = new Deck();
         this.myHand = myHand;
         this.knownCommons = new ArrayList<>(knowncommons);
-        knownCommons.removeAll(Collections.singleton(null));
         players = new Hand[numPlayers - 1];
     }
 

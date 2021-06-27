@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.Button?>
+<VBox xmlns:fx="http://javafx.com/fxml" spacing="10" fx:controller="poker.src.controller">
+    <children>
+        <Text> Your handss </Text>
+        <fx:include source="cardSelector.fxml" fx:id="card_1" />
+        <fx:include source="cardSelector.fxml" fx:id="card_2" />
+    </children>
+    
+    <children>
+        <Text> Number of known cards </Text>
+        <Slider fx:id="knowCards"
+            blockIncrement="1.0" 
+            cache="true" 
+            majorTickUnit="1.0" 
+            max="5" 
+            min="0" 
+            minorTickCount="0" 
+            showTickLabels="true" 
+            showTickMarks="true" 
+            snapToTicks="true" 
+            value="0"
+        />
+        <GridPane fx:id="knownCardsPlaceholder">
+        </GridPane>
+    </children>
+    
+    <children>
+        <Text> Number of players( including yourself): </Text>
+        <Slider fx:id="playerCount"
+            blockIncrement="1.0" 
+            cache="true" 
+            majorTickUnit="1.0" 
+            max="10" 
+            min="2" 
+            minorTickCount="0" 
+            showTickLabels="true" 
+            showTickMarks="true" 
+            snapToTicks="true" 
+            value="2" 
+        />
+    </children>
+    
+    <children>
+        <Button fx:id="calculate" text="Do calculation for me!" onAction="#buttonClicked"/>
+        <Text fx:id="resultPlaceholder"></Text>
+    </children>
+</VBox>

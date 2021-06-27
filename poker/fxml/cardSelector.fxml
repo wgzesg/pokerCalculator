@@ -1,0 +1,10 @@
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="poker.src.cardSelectorController">
+    <ComboBox fx:id="suit" prefWidth="123.0" GridPane.columnIndex="0">                
+    </ComboBox>
+    <ComboBox fx:id="number" prefWidth="123.0" GridPane.columnIndex="1">                
+    </ComboBox>
+</GridPane>

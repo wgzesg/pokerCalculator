@@ -1,0 +1,3 @@
+*.class
+poker/src/*.class
+*.jar

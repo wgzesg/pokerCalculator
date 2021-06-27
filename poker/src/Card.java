@@ -1,3 +1,4 @@
+package poker.src;
 public class Card implements Comparable<Card> {
     public Suit suit;
     public CardNumber number;

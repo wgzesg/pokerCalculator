@@ -1,3 +1,4 @@
+package poker.src;
 public enum Suit {
     Spade("♠️"),
     Heart("♥️"),

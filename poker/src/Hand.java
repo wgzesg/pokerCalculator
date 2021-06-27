@@ -1,3 +1,4 @@
+package poker.src;
 public class Hand {
     Card first;
     Card second;

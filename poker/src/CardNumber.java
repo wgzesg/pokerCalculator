@@ -1,3 +1,4 @@
+package poker.src;
 public enum CardNumber {
     Two("2", 1),
     Three("3", 2),

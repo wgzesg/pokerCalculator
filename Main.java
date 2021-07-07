@@ -1,4 +1,4 @@
-import poker.src.SimpleUi;
+import poker.src.ui.SimpleUi;
 
 public class Main {
     // include the properties of a Point
